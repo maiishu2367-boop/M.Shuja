@@ -5,6 +5,10 @@
 
   <meta charset="UTF-8">
 
+  <!-- Google Search Console Verification -->
+  <meta name="google-site-verification"
+        content="qLCX3tFmcW7mpeRVx2gwu---iP56wB7IUPtS8EdBC_Y" />
+
   <title>M. Shuja — Student at AMU</title>
 
   <meta
@@ -14,10 +18,7 @@
 
   <meta name="author" content="Mohammad Shuja">
 
-  <meta
-    name="robots"
-    content="index, follow"
-  >
+  <meta name="robots" content="index, follow">
 
   <meta
     name="viewport"
@@ -25,7 +26,6 @@
   >
 
   <!-- Social Preview -->
-
   <meta
     property="og:title"
     content="M. Shuja — Student at AMU"
@@ -52,59 +52,33 @@
   ========================== -->
 
   <script type="application/ld+json">
-
   {
     "@context": "https://schema.org",
     "@type": "ProfilePage",
-
     "name": "M. Shuja — Student at AMU",
-
-    "description":
-      "M. Shuja — Student at AMU and Web Creator.",
-
+    "description": "M. Shuja — Student at AMU and Web Creator.",
     "mainEntity": {
-
       "@type": "Person",
-
       "name": "Mohammad Shuja",
-
       "alternateName": "M. Shuja",
-
       "jobTitle": "Web Creator",
-
-      "description":
-        "Student at AMU and Web Creator.",
-
+      "description": "Student at AMU and Web Creator.",
       "image": "image.jpg",
-
       "sameAs": [
         "https://www.instagram.com/_fyntrax/"
       ],
-
       "address": {
-
         "@type": "PostalAddress",
-
         "addressLocality": "Aligarh",
-
         "addressRegion": "Uttar Pradesh",
-
         "addressCountry": "IN"
-
       }
-
     }
-
   }
-
   </script>
 
 
   <style>
-
-    /* =========================
-       RESET
-    ========================= */
 
     * {
       margin: 0;
@@ -112,14 +86,11 @@
       box-sizing: border-box;
     }
 
-
     html {
       scroll-behavior: smooth;
     }
 
-
     body {
-
       font-family:
         Inter,
         -apple-system,
@@ -129,22 +100,17 @@
         sans-serif;
 
       background:
-
         radial-gradient(
           circle at 10% 0%,
           rgba(70, 90, 140, 0.22),
           transparent 32%
         ),
-
         #050608;
 
       color: #f4f6fa;
-
       line-height: 1.6;
-
       overflow-x: hidden;
     }
-
 
     a {
       color: inherit;
@@ -157,59 +123,36 @@
     ========================= */
 
     nav {
-
       position: fixed;
-
       top: 18px;
-
       left: 50%;
+      transform: translateX(-50%);
 
-      transform:
-        translateX(-50%);
+      width: min(92%, 720px);
 
-      width:
-        min(92%, 720px);
-
-      padding:
-        12px 18px;
+      padding: 12px 18px;
 
       display: flex;
-
       justify-content: center;
-
       align-items: center;
-
       gap: 24px;
 
-      background:
-        rgba(10, 12, 16, 0.72);
+      background: rgba(10, 12, 16, 0.72);
 
-      border:
-        1px solid rgba(255,255,255,0.09);
+      border: 1px solid rgba(255,255,255,0.09);
+      border-radius: 999px;
 
-      border-radius:
-        999px;
-
-      backdrop-filter:
-        blur(18px);
-
-      -webkit-backdrop-filter:
-        blur(18px);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
 
       z-index: 1000;
     }
 
-
     nav a {
-
       font-size: 13px;
-
       color: #aeb4c0;
-
-      transition:
-        0.25s ease;
+      transition: 0.25s ease;
     }
-
 
     nav a:hover {
       color: #ffffff;
@@ -217,86 +160,60 @@
 
 
     /* =========================
-       MAIN LAYOUT
+       MAIN
     ========================= */
 
     .main-wrapper {
-
-      width:
-        min(750px, 92%);
-
-      margin:
-        110px auto 60px 5%;
+      width: min(750px, 92%);
+      margin: 110px auto 60px 5%;
 
       display: flex;
-
       flex-direction: column;
-
       align-items: flex-start;
     }
 
 
     /* =========================
-       PROFILE AREA
+       PROFILE
     ========================= */
 
     .profile-cluster {
-
       display: flex;
-
       flex-direction: column;
-
       align-items: flex-start;
 
       margin-bottom: 24px;
-
       width: 100%;
     }
 
 
-    /* =========================
-       PROFILE PHOTO
-    ========================= */
-
     .photo-wrap {
-
       width: 110px;
-
       height: 110px;
 
       margin-bottom: 12px;
-
       margin-left: -5px;
 
       padding: 2px;
 
       border-radius: 50%;
 
-      background:
-        rgba(150, 160, 180, 0.45);
+      background: rgba(150, 160, 180, 0.45);
 
       box-shadow:
-
-        0 0 8px
-        rgba(180, 190, 210, 0.22),
-
-        0 0 18px
-        rgba(150, 160, 190, 0.12);
+        0 0 8px rgba(180, 190, 210, 0.22),
+        0 0 18px rgba(150, 160, 190, 0.12);
     }
 
 
     .profile-photo {
-
       width: 100%;
-
       height: 100%;
 
       border-radius: 50%;
 
       object-fit: cover;
-
-      object-position:
-        center 42%;
+      object-position: center 42%;
 
       display: block;
 
@@ -309,16 +226,12 @@
     ========================= */
 
     .name {
-
-      font-size:
-        clamp(28px, 5vw, 38px);
+      font-size: clamp(28px, 5vw, 38px);
 
       font-weight: 700;
-
       letter-spacing: -1px;
 
       background:
-
         linear-gradient(
           90deg,
           #ffffff,
@@ -326,41 +239,23 @@
           #ffffff
         );
 
-      -webkit-background-clip:
-        text;
-
-      -webkit-text-fill-color:
-        transparent;
-
-      background-clip:
-        text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
 
       margin-bottom: 4px;
     }
 
 
-    /* =========================
-       ROLE
-    ========================= */
-
     .role {
-
       font-size: 14px;
-
       color: #aeb6c4;
-
       margin-bottom: 3px;
     }
 
 
-    /* =========================
-       LOCATION
-    ========================= */
-
     .location {
-
       font-size: 12px;
-
       color: #777f8c;
     }
 
@@ -370,25 +265,18 @@
     ========================= */
 
     .status {
-
       display: flex;
-
       align-items: center;
-
       gap: 8px;
 
       margin-top: 9px;
 
       font-size: 12px;
-
       color: #aeb6c4;
     }
 
-
     .status-dot {
-
       width: 8px;
-
       height: 8px;
 
       border-radius: 50%;
@@ -396,31 +284,22 @@
       background: #39e66b;
 
       box-shadow:
-        0 0 8px
-        rgba(57,230,107,0.8);
+        0 0 8px rgba(57,230,107,0.8);
 
-      animation:
-        blink 1.5s infinite;
+      animation: blink 1.5s infinite;
     }
-
 
     @keyframes blink {
 
       0%,
       100% {
-
         opacity: 1;
-
-        transform:
-          scale(1);
+        transform: scale(1);
       }
 
       50% {
-
         opacity: 0.25;
-
-        transform:
-          scale(0.75);
+        transform: scale(0.75);
       }
 
     }
@@ -431,15 +310,13 @@
     ========================= */
 
     .content-bar {
-
       width: 100%;
 
       background:
         rgba(255, 255, 255, 0.03);
 
       border:
-        1px solid
-        rgba(255, 255, 255, 0.07);
+        1px solid rgba(255, 255, 255, 0.07);
 
       border-radius: 20px;
 
@@ -448,33 +325,26 @@
       text-align: left;
 
       display: flex;
-
       flex-direction: column;
 
       gap: 30px;
 
       box-shadow:
-        0 15px 40px
-        rgba(0,0,0,0.4);
+        0 15px 40px rgba(0,0,0,0.4);
     }
 
 
     /* =========================
-       SECTION
+       SECTIONS
     ========================= */
 
     .section-block {
-
       display: flex;
-
       flex-direction: column;
-
       gap: 12px;
     }
 
-
     .section-label {
-
       color: #7d8ba4;
 
       text-transform: uppercase;
@@ -484,9 +354,7 @@
       letter-spacing: 3px;
     }
 
-
     h2 {
-
       font-size: 20px;
 
       letter-spacing: -0.5px;
@@ -496,9 +364,7 @@
       margin-bottom: 4px;
     }
 
-
     .about-text {
-
       color: #aeb4bf;
 
       font-size: 15px;
@@ -512,7 +378,6 @@
     ========================= */
 
     .timeline {
-
       position: relative;
 
       margin-top: 5px;
@@ -520,23 +385,18 @@
       padding-left: 20px;
     }
 
-
     .timeline::before {
-
       content: "";
 
       position: absolute;
 
       left: 2px;
-
       top: 0;
-
       bottom: 0;
 
       width: 1px;
 
       background:
-
         linear-gradient(
           transparent,
           #667085,
@@ -544,33 +404,26 @@
         );
     }
 
-
     .timeline-item {
-
       position: relative;
 
       padding:
         0 0 22px 20px;
     }
 
-
     .timeline-item:last-child {
       padding-bottom: 0;
     }
 
-
     .timeline-item::before {
-
       content: "";
 
       position: absolute;
 
       left: -4px;
-
       top: 5px;
 
       width: 10px;
-
       height: 10px;
 
       border-radius: 50%;
@@ -578,23 +431,17 @@
       background: #d9dee8;
 
       box-shadow:
-        0 0 12px
-        rgba(220,225,235,0.35);
+        0 0 12px rgba(220,225,235,0.35);
     }
 
-
     .timeline-year {
-
       font-size: 12px;
-
       color: #7d8798;
 
       margin-bottom: 2px;
     }
 
-
     .timeline-title {
-
       font-size: 15px;
 
       font-weight: 600;
@@ -602,9 +449,7 @@
       margin-bottom: 2px;
     }
 
-
     .timeline-school {
-
       color: #9ca5b3;
 
       font-size: 13px;
@@ -616,7 +461,6 @@
     ========================= */
 
     .bullet-list {
-
       list-style-type: disc;
 
       padding-left: 20px;
@@ -632,7 +476,6 @@
       font-size: 15px;
     }
 
-
     .bullet-list li strong {
       color: #ffffff;
     }
@@ -643,11 +486,9 @@
     ========================= */
 
     .contact-card {
-
       margin-top: 5px;
 
-      padding:
-        16px 20px;
+      padding: 16px 20px;
 
       display: flex;
 
@@ -661,23 +502,16 @@
         rgba(255,255,255,0.04);
 
       border:
-        1px solid
-        rgba(255,255,255,0.08);
+        1px solid rgba(255,255,255,0.08);
 
       transition:
-
         transform 0.3s ease,
-
         border-color 0.3s ease,
-
         background 0.3s ease;
     }
 
-
     .contact-card:hover {
-
-      transform:
-        translateY(-2px);
+      transform: translateY(-2px);
 
       border-color:
         rgba(255,255,255,0.20);
@@ -690,9 +524,7 @@
     /* SMALL LEFT ICON */
 
     .contact-icon {
-
       width: 34px;
-
       height: 34px;
 
       flex-shrink: 0;
@@ -703,46 +535,37 @@
 
       border-radius: 9px;
 
-      background:
-        #11141a;
+      background: #11141a;
 
       border:
-        1px solid
-        rgba(255,255,255,0.08);
+        1px solid rgba(255,255,255,0.08);
     }
 
-
     .contact-icon svg {
-
       width: 18px;
-
       height: 18px;
 
       display: block;
     }
 
 
-    /* COLOURED INSTAGRAM */
+    /* INSTAGRAM */
 
     .instagram-icon {
-
       background:
         rgba(255,255,255,0.025);
     }
 
 
-    /* TELEPHONE */
+    /* PHONE */
 
     .phone-icon svg {
-
       width: 18px;
-
       height: 18px;
     }
 
 
     .contact-info strong {
-
       display: block;
 
       color: #ffffff;
@@ -752,9 +575,7 @@
       font-weight: 600;
     }
 
-
     .contact-info span {
-
       display: block;
 
       color: #89919f;
@@ -762,9 +583,7 @@
       font-size: 12px;
     }
 
-
     .contact-arrow {
-
       margin-left: auto;
 
       color: #c6ccd7;
@@ -780,9 +599,7 @@
     ========================= */
 
     footer {
-
-      width:
-        min(750px, 92%);
+      width: min(750px, 92%);
 
       margin: auto;
 
@@ -790,8 +607,7 @@
         25px 0 40px 5%;
 
       border-top:
-        1px solid
-        rgba(255,255,255,0.07);
+        1px solid rgba(255,255,255,0.07);
 
       color: #656d7a;
 
@@ -808,7 +624,6 @@
     @media (max-width: 600px) {
 
       .main-wrapper {
-
         margin:
           90px auto 40px;
 
@@ -817,33 +632,26 @@
         padding: 0;
       }
 
-
       .content-bar {
         padding: 20px;
       }
 
-
       footer {
-
         padding-left: 0;
 
         text-align: center;
       }
 
-
       nav {
-
         gap: 12px;
 
         padding:
           10px 12px;
       }
 
-
       nav a {
         font-size: 11px;
       }
-
 
       .contact-arrow {
         font-size: 11px;
@@ -896,8 +704,6 @@
     <div class="profile-cluster">
 
 
-      <!-- PROFILE PHOTO -->
-
       <div class="photo-wrap">
 
         <img
@@ -909,28 +715,20 @@
       </div>
 
 
-      <!-- NAME -->
-
       <h1 class="name">
         M. Shuja
       </h1>
 
-
-      <!-- ROLE -->
 
       <p class="role">
         Student at AMU • Web Creator
       </p>
 
 
-      <!-- LOCATION -->
-
       <p class="location">
         Aligarh, Uttar Pradesh
       </p>
 
-
-      <!-- CURRENT STATUS -->
 
       <div class="status">
 
@@ -997,9 +795,7 @@
       >
 
 
-      <!-- =========================
-           EDUCATION
-      ========================= -->
+      <!-- EDUCATION -->
 
       <div
         id="education"
@@ -1018,8 +814,6 @@
         <div class="timeline">
 
 
-          <!-- CURRENT -->
-
           <div class="timeline-item">
 
             <div class="timeline-year">
@@ -1036,8 +830,6 @@
 
           </div>
 
-
-          <!-- PREVIOUS -->
 
           <div class="timeline-item">
 
@@ -1070,9 +862,7 @@
       >
 
 
-      <!-- =========================
-           SKILLS
-      ========================= -->
+      <!-- SKILLS -->
 
       <div
         id="skills"
